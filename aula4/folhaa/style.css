@@ -38,6 +38,9 @@ nav ul li a:hover {
 section {
     padding: 20px;
 }
+li ::marker {
+    font-weight: bold;
+}
 footer {
     padding: 20px;
     text-align: center;
@@ -48,4 +51,19 @@ footer {
 }
 section article p {
     padding: 5px 0px;
+}
+.lista {
+    padding: 0 0 0 30px;
+}
+.produtos {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.produtos h2 {
+    color: #712e14;
+}
+.preco {
+    color: #712e14;
 }
