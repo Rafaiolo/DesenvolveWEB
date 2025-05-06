@@ -67,3 +67,28 @@ section article p {
 .preco {
     color: #712e14;
 }
+h2 {
+    padding-bottom: 15px;
+}
+form {
+    padding: 15px;
+    border: 1px solid #712e14;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+input[type="submit"] {
+    background-color: #712e14;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
