@@ -31,3 +31,29 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+.container1 > div {
+    background-color: black;
+    color: antiquewhite;
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    font-size: 30px
+}
+.container2 > div {
+    background-color: black;
+    color: antiquewhite;
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    font-size: 30px
+}
+.container-centralizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+.container-centralizado > div{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
