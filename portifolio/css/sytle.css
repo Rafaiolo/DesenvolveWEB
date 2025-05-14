@@ -12,6 +12,9 @@
     --bg-cinza: #262626;
     --cinza-claro: #ababab ;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color:var(--cinza-escuro);
     color: var(--branco);
@@ -25,7 +28,7 @@ body {
     background-position: center;
 }
 .container {
-    padding: 20px;
+    padding: 10px 10%;
 }
 .logo {
     width: 140px;
@@ -297,4 +300,84 @@ form .botao2 {
 .botao.botao2 {
     display: inline-block;
     background-color: var(--magenta);
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: var(--bg-cinza);
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i {
+    color: var(--magenta);
+}
+/*------------- Telas pequenas -------------*/
+nav .fa-solid {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    #header {
+        background-image: url(../imagens/cel_john_doe.png);
+    }
+    .texto-cabeçalho {
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    .texto-cabeçalho h1 {
+        font-size: 30px;
+    }
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+    nav ul {
+        background-color: var(--magenta);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul  li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .subtitulo {
+        font-size: 40px;
+    }
+    /* Sobre */
+    .sobre-col-1, .sobre-col-2 {
+        flex-basis: 100%;
+    }
+    .sobre-col-1 {
+        margin-bottom: 30px;
+    }
+    .sobre-col-2 {
+        font-size: 14px;
+    }
+    .aba-links {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    /* Contato */
+    .contato-direita, .contato-esquerda {
+        flex-basis: 100%;
+    } 
+    /* Copyright */ 
+    .copyright {
+        font-size: 14px;
+    }
+    nav i .fa-solid .fa-bars {
+        cursor: pointer;
+    }
 }
