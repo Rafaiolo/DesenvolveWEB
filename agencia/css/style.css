@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg-navbar-roxo-claro: #a517ba;
+    --bg-navbar-roxo-escuro: #5f1782;
+    --bg-cinza-claro: #f8f9fa;
+    --branco: #fff;
+    --traco-titulo: #7b1789;
+    --vermelho: #ff004f;
+
+}
+body {
+    font-family: sans-serif;
+}
+#barra-nav {
+    position: sticky; /* fixar a barra no topo doi site */
+        margin: 0;
+        z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, var(--bg-navbar-roxo-claro), var(--bg-navbar-roxo-escuro));
+    padding: 0;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
