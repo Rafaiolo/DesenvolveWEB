@@ -102,9 +102,13 @@ body {
     display: block;
     transform: translateY(63px);
 }
+/* Sobre */
 #sobre {
     background-color: var(--bg-cinza-claro);
     padding: 50px 0;
+}
+.titulo {
+    text-align: center;
 }
 .sobre-titulo {
     font-size: 40px;
@@ -147,4 +151,56 @@ body {
 }
 .social-icon a:hover img {
     transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+/* RODAPÉ */
+#rodape {
+    background-image: linear-gradient(to right, var(--bg-navbar-roxo-claro), var(--bg-navbar-roxo-escuro));
+    color: var(--branco);
+}
+.rodape-img {
+    width: 100%;
+}
+.col-md-4.rodape-caixa {
+    padding: 50px 30px;
+    margin: 0;
+}
+.rodape-caixa img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.rodape-caixa .bi {
+    margin-right: 8px;
+    font-size: 25px;
+    width: 25px;
+}
+.rodape-caixa .formulario {
+    box-shadow: none;
+    border: none;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.rodape-caixa .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--bg-navbar-roxo-claro), var(--bg-navbar-roxo-escuro));
+    color: var(--branco);
+}
+.copy {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-image: linear-gradient(to right, var(--bg-navbar-roxo-claro), var(--bg-navbar-roxo-escuro));
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copy .bi {
+    color: var(--vermelho)
 }
